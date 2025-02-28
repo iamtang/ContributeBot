@@ -9,6 +9,13 @@
 - access token 给对应的仓库权限，建议使用私有仓库
 - 执行 crontab -e 末尾添加 30 11 * * * python3 /项目路径/main.py > /dev/null 2>&1 # 每天11点半执行代码
 
+### github操作支持，默认使用update file，有需要调整自行修改代码
+- update file
+- issue create
+- issue comment
+- issue comment delete
+- issue close
+
 ```
 # .env.example
 GITHUB_TOKEN="github access token" # 个人访问令牌

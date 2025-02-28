@@ -7,7 +7,7 @@
 - 新建.env文件，参考模板.env.example
 - [创建access token](https://github.com/settings/personal-access-tokens)
 - access token 给对应的仓库权限，建议使用私有仓库
-- 30 11 * * * python3 main.py > /dev/null 2>&1 # 每天11点半执行代码
+- 执行 crontab -e 末尾添加 30 11 * * * python3 /项目路径/main.py > /dev/null 2>&1 # 每天11点半执行代码
 
 ```
 # .env.example

@@ -1,4 +1,4 @@
-# AutoContributeBot
+# ContributeBot
 > 使用定时任务执行脚本，刷github的contributions，不至于一片白。
 
 ![图片描述](./img/image.png)
